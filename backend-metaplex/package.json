@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "init-mint": "node createMintAccount.js",
+    "faucet": "node faucetAureus.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.18.3",
+    "@metaplex-foundation/mpl-token-metadata": "^2.9.0",
+    "@solana/spl-token": "^0.3.7",
+    "@solana/web3.js": "^1.73.3",
+    "body-parser": "^1.20.2",
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "tweetnacl": "^1.0.3",
+    "web3.storage": "^4.5.4"
+  }
+}
